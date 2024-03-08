@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import Mainpage from './component/mainpage';
+import Welcome from './component/Welcome.jsx';
 
 
 const App=() => {
 
   return (
     <div>
-      <Mainpage />
+      <Welcome />
     </div>
   );
 };
